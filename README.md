@@ -1,10 +1,9 @@
-# Project Personal Page
+# Maya Asmara Web
 
-This is an example of personal page of Maya Asmara.
+Personal page of Maya Asmara.
 
-- Maya Asmara: Maya Asmara
-- Title: Title at Company
-- URL: [https://fullname.com](https://personal-page.azobu.com)
+- Full Name: Maya Asmara
+- URL: [https://mayaasmara.com](https://mayaasmara.com)
 
 ## License
 
