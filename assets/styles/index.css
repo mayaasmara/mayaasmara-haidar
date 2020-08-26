@@ -8,7 +8,7 @@ html {
 body {
   margin: auto;
   color: #333;
-  background-color: #fff;
+  background-color: hsla(270, 40%, 40%, 20%);
   max-width: 720px;
 }
 
