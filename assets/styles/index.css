@@ -8,7 +8,7 @@ html {
 body {
   margin: auto;
   color: #333;
-  background-color: hsla(270, 40%, 40%, 20%);
+  background-color: #e5cefc;
   max-width: 720px;
 }
 
@@ -26,10 +26,21 @@ h6 {
 
 p {
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.8em;
 }
 
 a {
   text-decoration: none;
+  color: #63365c;
+}
+
+p a {
+  transition: all 0.2s;
+  font-weight: bold;
+}
+
+p a:hover {
+  opacity: 0.5;
 }
 
 .navigation {
@@ -92,7 +103,7 @@ a {
 }
 
 .content {
-  margin: 0;
+  margin: 50px 0;
 }
 
 .buttons {
@@ -131,6 +142,10 @@ a {
   background: #297aa3;
 }
 
+.intro {
+  font-size: 20px;
+}
+
 .paragraphs {
   margin: 0;
 }
@@ -152,6 +167,7 @@ a {
 }
 
 .post div {
+  background-color: #fff;
   border: 2px solid #c99cc2;
   border-radius: 5px;
   padding: 20px;
@@ -211,6 +227,7 @@ a {
   padding: 10px;
   border: 2px solid #c99cc2;
   border-radius: 5px;
+  font-size: 18px;
 }
 
 .contact-form .field textarea {
