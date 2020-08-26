@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rubik:wght@400;500&display=swap');
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+}
+
+body {
+  margin: auto;
+  color: #333;
+  background-color: #fff;
+  max-width: 720px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  margin: 20px 0;
+  color: #1a1a1a;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.navigation .logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 10px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #63365c;
+  transition: all 0.2s;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 0 25px;
+}
+
+.navigation a:hover {
+  opacity: 0.8;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.hero img {
+  margin-bottom: 30px;
+  border-radius: 5px;
+  max-width: 720px;
+}
+
+.hero h1 {
+  color: #63365c;
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.hero h2 {
+  font-size: 30px;
+  margin: 5px 0;
+}
+
+.hero .box {
+  width: 100%;
+  height: 10px;
+  background: #a55a99;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.content {
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons .button {
+  margin: 10px;
+}
+
+.button {
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 0.05em;
+  padding: 10px 20px;
+  border-radius: 100px;
+
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.primary {
+  background: #a55a99;
+}
+
+.primary:hover {
+  background: #63365c;
+}
+
+.secondary {
+  background: #5cadd6;
+}
+
+.secondary:hover {
+  background: #297aa3;
+}
+
+.paragraphs {
+  margin: 0;
+}
+
+.paragraphs p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.posts {
+  margin: 0;
+}
+
+.posts a {
+  color: #1a1a1a;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.post div {
+  border: 2px solid #c99cc2;
+  border-radius: 5px;
+  padding: 20px;
+  transition: all 0.2s;
+}
+
+.post div:hover {
+  background-color: #eee;
+}
+
+.post .title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
+  color: #a55a99;
+}
+
+.post .date {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #63365c;
+}
+
+.post p {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  width: 420px;
+}
+
+.contact-form .field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact-form .field label {
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.contact-form .field input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid #c99cc2;
+  border-radius: 5px;
+}
+
+.contact-form .field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 2px solid #c99cc2;
+  border-radius: 5px;
+}
+
+.contact-form .submit.button {
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border: none;
+}
+
+.contact-form input::placeholder {
+  color: #ccc;
+}
+
+.footer {
+  margin-top: 100px;
+  padding: 30px;
+}
+
+.footer p {
+  text-align: center;
+}

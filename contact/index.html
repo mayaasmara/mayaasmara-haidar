@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Full Name</title>
+    <link rel="stylesheet" href="/assets/styles/index.css" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <a href="/" class="logo">
+        <img src="/assets/images/logo.svg" alt="Logo" />
+      </a>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/blog">Blog</a>
+      <a href="/contact">Contact</a>
+    </nav>
+
+    <header class="hero">
+      <img src="/assets/images/contact.jpg" alt="Contact" />
+      <h1>Contact Me</h1>
+    </header>
+
+    <main class="content">
+      <section class="contact-section">
+        <form class="contact-form">
+          <div class="field">
+            <label for="name">Your Name</label>
+            <input name="name" type="text" placeholder="Carol Danvers" />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input name="email" type="email" placeholder="carol@avengers.com" />
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input name="phone" type="phone" placeholder="+1 234 567 890" />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea name="message" rows="10"></textarea>
+          </div>
+          <div class="controls">
+            <input
+              type="submit"
+              value="Send Message"
+              class="submit button primary"
+            />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2020 Full Name</p>
+    </footer>
+  </body>
+</html>
