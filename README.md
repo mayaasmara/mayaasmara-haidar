@@ -1,11 +1,11 @@
 # Project Personal Page
 
-This is an example of personal page of Full Name.
+This is an example of personal page of Maya Asmara.
 
-- Full Name: Full Name
+- Maya Asmara: Maya Asmara
 - Title: Title at Company
 - URL: [https://fullname.com](https://personal-page.azobu.com)
 
 ## License
 
-2020 © Full Name
+2020 © Maya Asmara
